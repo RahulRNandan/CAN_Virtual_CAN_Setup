@@ -1,4 +1,4 @@
-**Virtual CAN Setup**
+# **Virtual CAN Setup**
 This repository contains instructions on how to set up a virtual CAN (vcan) interface on a Linux system, and how to send and receive CAN messages using the can-utils package. This setup is ideal for testing CAN communications when physical CAN hardware is not available.
 
 **Project Overview**
