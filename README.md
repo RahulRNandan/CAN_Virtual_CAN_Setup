@@ -5,20 +5,18 @@ This repository contains instructions on how to set up a virtual CAN (vcan) inte
 In the Automotive Industry, CAN (Controller Area Network) is a protocol used for communication between various systems and controllers within a vehicle. In this project, we emulate CAN communication on Linux using a virtual CAN interface. This allows us to test and simulate CAN traffic without needing actual hardware.
 
 **Tools and Technologies**
-Linux OS
-Virtual CAN (vcan) interface
-can-utils package: Utilities for handling CAN messages
-UART, SPI, CAN Analyzer, Emulators
-Table of Contents
-Installation
-Setting up a Virtual CAN Interface
-Sending CAN Messages
-Receiving CAN Messages
-Testing and Validation
-Troubleshooting
-License
-Installation
-Install can-utils: can-utils is a set of utilities for managing CAN networks. You'll need to install this package to use cansend, candump, and other CAN-related tools.
+- Linux OS
+- Virtual CAN (vcan) interface
+- can-utils package: Utilities for handling CAN messages
+- UART, SPI, CAN Analyzer, Emulators
+**Table of Contents**
+- Installation
+- Setting up a Virtual CAN Interface
+- Sending CAN Messages
+- Receiving CAN Messages
+**Installation**
+
+  Install can-utils: can-utils is a set of utilities for managing CAN networks. You'll need to install this package to use cansend, candump, and other CAN-related tools.
 ```
 sudo apt-get install can-utils
 
